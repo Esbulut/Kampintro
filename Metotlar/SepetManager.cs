@@ -17,5 +17,5 @@ namespace Metotlaar
             Console.WriteLine("Tebrikler. Sepete Eklendi!");
         }
 
-    }
+    }                             
 }

@@ -6,16 +6,9 @@ namespace Donguler
     {
         static void Main(string[] args)
         {
-            string kurs1 = "Yazılım Geliştirici Yerleştirme Kampı";
-            string kurs2 = "Programlamaya başlangıç için temel kurs";
-            string kurs3 = "Java";
+            
 
-            Console.WriteLine(kurs1);
-            Console.WriteLine(kurs2);
-            Console.WriteLine(kurs3);
-
-
-            string[] kurslar = new string[] {"Yazılım Geliştirici Yerleştirme Kampı" , "Programlamaya başlangıç için temel kurs" ,"Java","Paython"};    
+            string[] kurslar = new string[] {"Yazılım Geliştirici Yerleştirme Kampı" , "Programlamaya başlangıç için temel kurs" ,"Java","Python"};    
 
             for (int i = 0; i < kurslar.Length; i++)
             {
@@ -30,5 +23,6 @@ namespace Donguler
             }
             Console.WriteLine("Sayfa Sonu");
         }
+     
     }
 }

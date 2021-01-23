@@ -7,10 +7,8 @@ namespace Kampintro
         static void Main(string[] args)
         {
             string KatagoriEtiketi = "Katagoriler";
-            int ogrenciSayisi=32000;
+            int ogrenciSayisi = 32000;
             double faizOrani = 1.45;
-
-
 
             bool sistemeGirisYapildiMi = false;
             double dolarDun = 7.35;
@@ -30,9 +28,10 @@ namespace Kampintro
 
             else
             {
-                Console.Write("Seğişmedi Bugot")
+                Console.Write("Seğişmedi Bugot");
                 
             }
+
             if (sistemeGirisYapildiMi==true)
             {
                 Console.WriteLine("Kullanıcı Ayarları Butonu");
